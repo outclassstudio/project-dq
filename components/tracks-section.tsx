@@ -11,11 +11,10 @@ export function TracksSection() {
 			<div className="flex flex-col md:flex-row gap-16 md:gap-24 w-full relative z-10">
 				<div className="md:w-1/3 flex flex-col justify-between">
 					<div>
+						<p className="mb-2">Project DEEP QUESTION : Bible Track,</p>
 						<h2 className="text-3xl md:text-5xl font-bold tracking-tight mb-8">
-							성경 트랙,
-							<br />
 							<span className="text-[var(--color-point-light)] font-serif italic font-medium tracking-wide drop-shadow-sm">
-								프로젝트 Q
+								신의 질문, 인간의 질문
 							</span>
 						</h2>
 						<p className="text-lg text-[var(--color-secondary-text)] font-light leading-relaxed">
@@ -80,7 +79,7 @@ export function TracksSection() {
 							variant="secondary"
 							className="group border-[var(--color-point-dark)] text-[var(--color-point-light)] hover:bg-[var(--color-point-dark)]/20"
 						>
-							프로젝트 Q 상세 보기
+							프로그램 신청하기
 							<span className="group-hover:translate-x-1 transition-transform inline-block ml-2">
 								→
 							</span>

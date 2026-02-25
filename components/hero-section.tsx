@@ -26,8 +26,9 @@ export function HeroSection() {
 				<div className="flex flex-col gap-4 text-xl md:text-2xl text-[var(--color-secondary-text)] max-w-2xl mx-auto mt-4 md:mt-8 font-light leading-relaxed">
 					<p>AI 시대, 답보다 중요한 건 ‘무엇을 물을지’입니다.</p>
 					<p className="text-[var(--color-point-light)] font-semibold mt-4 tracking-wide shadow-[var(--color-point-dark)]">
-						프로젝트 딥퀘스천.
+						프로젝트 딥퀘스천
 					</p>
+					<p className="text-xs md:text-sm">Powered by Reframe Point.</p>
 				</div>
 
 				{/* Bottom geometric accent */}

@@ -35,13 +35,11 @@ export function OutroSection() {
 				<div className="mt-8 relative group">
 					{/* Button halo effect */}
 					<div className="absolute -inset-1 bg-gradient-to-r from-[var(--color-point-dark)] to-[var(--color-point)] rounded-full blur opacity-30 group-hover:opacity-60 transition duration-500" />
-					<Button
-						size="lg"
-						className="relative text-lg md:text-xl px-12 py-8 bg-gradient-to-r from-[var(--color-secondary-bg)] to-[var(--color-primary-bg)] border border-[var(--color-point-dark)]/50 hover:border-[var(--color-point-light)] text-[var(--color-point-light)] hover:text-white transition-all duration-500 rounded-full"
-					>
+					<Button className="relative text-lg md:text-xl px-12 py-8 bg-gradient-to-r from-[var(--color-secondary-bg)] to-[var(--color-primary-bg)] border border-[var(--color-point-dark)]/50 hover:border-[var(--color-point-light)] text-[var(--color-point-light)] hover:text-white transition-all duration-500 rounded-full">
 						프로젝트 딥퀘스천 시작하기
 					</Button>
 				</div>
+				<p className="text-xs md:text-sm">Powered by Reframe Point.</p>
 			</div>
 		</Section>
 	);
